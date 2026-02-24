@@ -608,7 +608,7 @@ defineExpose({
 }
 
 .groupButtonLeft:hover {
-	border-right-color: inherit;
+	border-right-color: var(--color--foreground);
 }
 
 .groupButtonRight {
@@ -617,7 +617,7 @@ defineExpose({
 }
 
 .buttonGroup:has(.groupButtonLeft:not(:disabled):hover) .groupButtonRight {
-	border-left-color: transparent;
+	border-left-color: var(--color--foreground);
 }
 
 .indicatorDot {
