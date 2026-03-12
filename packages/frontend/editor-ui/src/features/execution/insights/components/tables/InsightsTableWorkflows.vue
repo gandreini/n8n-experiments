@@ -222,7 +222,7 @@ watch(sortBy, (newValue) => {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	line-height: 1.2;
-	width: fit-content;
+	width: 100%;
 	max-width: 100%;
 }
 
@@ -232,6 +232,7 @@ watch(sortBy, (newValue) => {
 	align-items: center;
 	color: var(--color--text);
 	text-decoration: underline;
+	width: 100%;
 	max-width: 100%;
 	&:hover {
 		color: var(--color--text--shade-1);
