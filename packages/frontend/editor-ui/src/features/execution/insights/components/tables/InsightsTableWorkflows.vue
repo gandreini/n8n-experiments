@@ -222,7 +222,7 @@ watch(sortBy, (newValue) => {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	line-height: 1.2;
-	width: fit-content;
+	width: 100%;
 	max-width: 100%;
 }
 
